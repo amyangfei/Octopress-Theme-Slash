@@ -28,7 +28,7 @@ $header-height: 30px;
 }
 #main-nav{
 	float: left;
-	margin-left: 30px;
+	margin-left: 20px;
 	@media screen and (max-width: 1040px){
 		float: none;
 		margin-left: 0;
@@ -397,6 +397,13 @@ $header-height: 30px;
 					border: 1px solid darken(rgb(64,110,149), 10%);
 				}
 			}
+			&.weibo{
+                background: image-url('social/weibo.png') center no-repeat rgb(251,0,0);
+                border: 1px solid rgb(251,0,0);
+                &:hover{
+                    border: 1px solid darken(rgb(251,0,0), 10%);
+                } 
+            }
 		}
 	}
 }
