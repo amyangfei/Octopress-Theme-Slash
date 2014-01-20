@@ -59,4 +59,17 @@
 	}).click(function(e){
 		e.stopPropagation();
 	});
+
+	$(function() {
+        $.scrollUp({
+            scrollName: 'scrollUp',
+            topDistance: '500',
+            topSpeed: 200,
+            animation: 'fade',
+            animationInSpeed: 200,
+            animationOutSpeed: 200,
+            scrollText: '',
+            activeOverlay: false
+        });
+    });
 })(jQuery);
